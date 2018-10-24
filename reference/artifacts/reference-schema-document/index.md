@@ -5,7 +5,6 @@
   description: Description of reference schema documents.
   links:
     - url: /reference/artifacts/reference-schema-document/structure/
-    - url: /reference/artifacts/reference-schema-document/usage/
 ---
 
 Reference schema documents are one of the principal NIEM artifacts.

@@ -5,7 +5,6 @@
   description: Description of extension schema documents.
   links:
     - url: /reference/artifacts/extension-schema-document/structure/
-    - url: /reference/artifacts/extension-schema-document/usage/
 ---
 
 Extension schema documents (EXTs), like [reference schema documents (REFs)](/reference/artifacts/reference-schema-document/),

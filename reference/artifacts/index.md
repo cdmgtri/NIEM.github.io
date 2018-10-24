@@ -20,6 +20,8 @@
     group: package
   - url: /reference/artifacts/iep/
     group: package
+  - url: /reference/artifacts/xml-catalog/
+    group: other
 ---
 
 The NIEM Conformant Artifacts are the substantive components created to represent the exchange data model. Typically they are packaged into several collections of text, JSON, XML, and binary files.
@@ -42,3 +44,8 @@ The NIEM artifacts are the physical components created to package and represent 
 
 {% assign advancedLinks = page.links | where: "group", "package" %}
 {% include icon-list.html links=advancedLinks %}
+
+## Other Artifacts
+
+{% assign other = page.links | where: "group", "other" %}
+{% include icon-list.html links=other %}
