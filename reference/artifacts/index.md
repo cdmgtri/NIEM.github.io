@@ -1,6 +1,5 @@
 ---
-  title: Conformant Artifacts
-  short: Artifacts
+  title: Artifacts
   icon: fa-sitemap
   description: Learn about the kinds of files that make up NIEM releases and IEPDs.
   links:
@@ -17,30 +16,58 @@
   - url: /reference/artifacts/schema-document-set/
     group: special
   - url: /reference/iepd/
-    group: package
+    group: iepd
   - url: /reference/artifacts/iep/
-    group: package
+    group: iepd
+  - url: /reference/artifacts/subset-schema/
+    group: iepd
+  - url: /reference/artifacts/extension-schema/
+    group: iepd
   - url: /reference/artifacts/xml-catalog/
     group: other
 ---
 
-The NIEM Conformant Artifacts are the substantive components created to represent the exchange data model. Typically they are packaged into several collections of text, JSON, XML, and binary files.
-
 See a [one-page overview](overview) for excerpts of each of the major artifacts. You may also choose an item on this page for which you need more information
 
-## Schema Artifacts
+## Conformant Artifacts
 
-The NIEM artifacts are the physical components created to package and represent the data model divided into several files.
+NIEM Conformant Artifacts are the substantive components created to represent the NIEM or NIEM exchange data model. Typically they are packaged into several collections of text, JSON, XML, and binary files.
 
-{% assign basicLinks = page.links | where: "group", "schema" %}
-{% include icon-list.html links=basicLinks %}
+{:.note}
+>
+> An artifact is a NIEM-conformant artifact if and only if it
+>
+>- has a Conformance Target defined within a NIEM specification,
+>- adheres to all normative rules applicable to its Conformance Target, and
+>- references the namespaces of any NIEM components used within its definition.
 
-## Special Artifacts
+<!--
+Main Specifications
+- Conformance (internal organization link)
+- Conformance Targets Attribute (internal organization link)
+- HLVA (internal organization link)
+- MPD (internal organization link)
+- NDR (internal organization link)
+- Schematron in XML (internal organization link)
+
+Artifact Specifications
+- Code List
+- Extension Schema
+- Subset Schema
+- Schema Document Set
+-->
+
+### Special Artifacts
 
 {% assign advancedLinks = page.links | where: "group", "special" %}
 {% include icon-list.html links=advancedLinks %}
 
-## Model Package Artifacts
+### NIEM IEPD-Specific Artifacts
+
+{% assign iepd = page.links | where: "group", "iepd" %}
+{% include icon-list.html links=iepd %}
+
+### Other NIEM-Specific Artifacts
 
 {% assign advancedLinks = page.links | where: "group", "package" %}
 {% include icon-list.html links=advancedLinks %}
