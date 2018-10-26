@@ -4,17 +4,6 @@
   description: Learn about the kinds of files that make up NIEM releases and IEPDs.
   links:
   - url: /reference/artifacts/overview/
-  - url: /reference/artifacts/reference-schema-document/
-    group: schema
-  - url: /reference/artifacts/extension-schema-document/
-    group: schema
-  - url: /reference/artifacts/reference-vs-extension/
-  - url: /reference/artifacts/subset-schema-document/
-    group: schema
-  - url: /reference/artifacts/code-lists/
-    group: special
-  - url: /reference/artifacts/schema-document-set/
-    group: special
   - url: /reference/iepd/
     group: iepd
   - url: /reference/artifacts/iep/
@@ -25,6 +14,14 @@
     group: iepd
   - url: /reference/artifacts/xml-catalog/
     group: other
+  - url: /reference/artifacts/code-lists/
+    group: niem
+  todo:
+  - move over release artifacts
+  - move over releases
+  - move over core-supplement
+  - add mpd catalog
+  - add domain update
 ---
 
 See a [one-page overview](overview) for excerpts of each of the major artifacts. You may also choose an item on this page for which you need more information
@@ -69,8 +66,8 @@ Artifact Specifications
 
 ### Other NIEM-Specific Artifacts
 
-{% assign advancedLinks = page.links | where: "group", "package" %}
-{% include icon-list.html links=advancedLinks %}
+{% assign niem = page.links | where: "group", "niem" %}
+{% include icon-list.html links=niem %}
 
 ## Other Artifacts
 

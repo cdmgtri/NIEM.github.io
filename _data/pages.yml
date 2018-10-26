@@ -2,11 +2,13 @@
 # Tools
 
 ssgt: /reference/tools/ssgt/
+contesa: /reference/tools/contesa/
 
 
 # Specs
 
 ndr: /reference/specifications/ndr/
+ctas: /reference/specifications/conformance-targets/
 
 
 # Artifacts

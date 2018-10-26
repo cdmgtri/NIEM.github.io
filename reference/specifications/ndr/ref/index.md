@@ -1,10 +1,11 @@
 ---
   title: Reference Schema Documents
-  short: Reference Schema Documents
-  icon: fa-sitemap
-  description: Description of reference schema documents.
-  links:
-    - url: /reference/artifacts/reference-schema-document/structure/
+  short: REF
+  icon: fa-cubes
+  description: REFs are NIEM schemas that provide authoritative definitions of broadly reusable schema components and follow a stricter syntax, as specified by the NDR.  NIEM release schemas are REFs.
+  todo:
+  - Needs review.
+  - NIEM recommends again extension schema REFs?
 ---
 
 Reference schema documents are one of the principal NIEM artifacts.
@@ -19,14 +20,15 @@ namespace (e.g., Core (nc), Screening (scr)).
 > - Provides authoritative semantics for namespace components
 > - Serves as the basis for IEPDs and Extension Schema Documents
 
+The rules for development of reference schema documents are more restrictive than all other NIEM components to enforce the documents' features:
+
+- Has a uniform document structure.
+- Does not restrict other data definitions.
+- Does not use XML Schema's restriction mechanism `xs:restriction`.
+- Made as regular and simple as possible.
+
 {:.note}
-> The rules for development of reference schema documents are more
-> restrictive than all other NIEM components to enforce the documents’
-> features:
-> - Has a uniform document structure.
-> - Does not restrict other data definitions.
-> - Does not use XML Schema's restriction mechanism `xs:restriction`.
-> - Made as regular and simple as possible.
+> Refer to **[Namespaces in XML](/reference/concepts/namespace/xml)** for information about how to set up a new NIEM XML Schema.  Make sure to use the appropriate **REF** conformance target (further described below).
 
 <!--more-->
 
@@ -46,7 +48,7 @@ allowed to use schema complex type restriction mechanisms.
 
 Every REF includes an `xs:annotation` element that defines its semantic meaning allowing
 for a more transparent understanding of why the REF was created and how it's to be used.
-As explained elsewhere, [extension schema documents (EXTs)](/reference/artifacts/extension-schema-document/)
+As explained elsewhere, [extension schema documents (EXTs)](../ext/)
 are also authoritative
 definitions, but in a local sense. They are authoritative within a given IEPD, and
 therefore, must also satisfy the same rigorous documentation rules as REFs.
@@ -62,18 +64,10 @@ that NIEM should constrain `nc:PersonType` to a single occurrence of the element
 criminal persons often present multiple identities with multiple birth dates;
 the capability to represent such is an important data requirement for NIEM.
 
-## Quick Example
+## REF Conformance Target
 
-```xml
-  <?xml version="1.0" encoding="US-ASCII"?>
-  <xs:schema targetNamespace="http://release.niem.gov/niem/niem-core/4.0/" version="1" xsi:schemaLocation="http://release.niem.gov/niem/appinfo/4.0/ ../../appinfo/4.0/appinfo.xsd http://release.niem.gov/niem/conformanceTargets/3.0/ ../../conformanceTargets/3.0/conformanceTargets.xsd" ct:conformanceTargets="http://reference.niem.gov/niem/specification/naming-and-design-rules/3.0/#ReferenceSchemaDocument" xmlns:niem-xs="http://release.niem.gov/niem/proxy/xsd/3.0/" xmlns:structures="http://release.niem.gov/niem/structures/3.0/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:appinfo="http://release.niem.gov/niem/appinfo/3.0/" xmlns:ct="http://release.niem.gov/niem/conformanceTargets/3.0/" xmlns:nc="http://release.niem.gov/niem/niem-core/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <xs:import schemaLocation="../../proxy/xsd/3.0/xs.xsd" namespace="http://release.niem.gov/niem/proxy/xsd/3.0/"/>
-    <xs:import schemaLocation="../../structures/3.0/structures.xsd" namespace="http://release.niem.gov/niem/structures/3.0/"/>
-    <xs:element name="DateRepresentation" abstract="true"/>
-    <xs:element name="DateTime" type="niem-xs:dateTime" substitutionGroup="nc:DateRepresentation"/>
-  </xs:schema>
-```
+A REF must include the appropriate conformance target, as defined by the NDR.  The conformance target identifier for a NDR 4.0-based REF is:
 
-## Detailed Reference
+> `http://reference.niem.gov/niem/specification/naming-and-design-rules/4.0/#ReferenceSchemaDocument`
 
-{% include icon-list.html links=page.links %}
+Refer to the information about the [Conformance Targets Attribute Specification]({{ site.data.pages.ctas }}) for more information.

@@ -1,8 +1,10 @@
 ---
   title: Schema Document Set
-  short: Schema Document Set
-  icon: fa-sitemap
-  description: Description of schema document set.
+  short: SET
+  icon: fa-files-o
+  description: A single conceptual XML Schema representing a collection of NIEM REF and EXT XML schemas.
+  todo:
+  - Does a typical IEPD developer need to know about SETs?
 ---
 
 A Schema Document Set (SET) is a conceptual NIEM artifact that
@@ -25,7 +27,7 @@ Schema Instance Documents.
 {:.note}
 > Because Schema Document Sets are composed of NIEM-conformant schema
 > documents (either `REF` or `EXT`), each member document must adhere to
-> the rules disignated by their individual conformance targets. Furthermore,
+> the rules designated by their individual conformance targets. Furthermore,
 > the document set must also adhere to the rules applicable to the conformance
 > target `SET`.
 

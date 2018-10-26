@@ -1,13 +1,13 @@
 ---
   title: Extension Schema Documents
-  short: Extension Schema Documents
-  icon: fa-sitemap
-  description: Description of extension schema documents.
-  links:
-    - url: /reference/artifacts/extension-schema-document/structure/
+  short: EXT
+  icon: fa-ellipsis-h
+  description: EXTs are user-created NIEM schemas for custom content and may follow a more relaxed syntax, as specified by the NDR.  IEPD extension schemas are often EXTs.
+  todo:
+  - Extension schema documents are not the same things as extension schemas (which can optionally use the REF target).  Need to clarify this page so it refers to the NDR EXT target and relaxed rule set.
 ---
 
-Extension schema documents (EXTs), like [reference schema documents (REFs)](/reference/artifacts/reference-schema-document/),
+Extension schema documents (EXTs), like [reference schema documents (REFs)](../ref/),
 are a fundamental part of NIEM model design. They contain components that
 use, or are derived from, the components in REFs and express additional
 vocabulary above and beyond the vocabulary available from REFs.
@@ -19,18 +19,18 @@ vocabulary above and beyond the vocabulary available from REFs.
 >
 > - Use explicit Conformance Target specified in the [Naming and Design Rules (NDR)]({{site.data.links.ndr}}).
 > - Define package-specific data elements and models.
-> - Extend vocabulary above and beyond that avaliable to REFs.
+> - Extend vocabulary above and beyond that available to REFs.
 > - Augment an existing NIEM data type (through NIEM Type Augmentation).
 > - Employ NIEM adapter types for components from an external standard that does not conform to NIEM.
 > - Limit the behavior of existing NIEM data types through schema `xs:restriction`.
 > - Can serve as the core schematic definitions of an IEPD.
 
 {:.note}
-> Because the application of extension schema documents does not
-> diverge much from reference schema documents, they must satisfy
-> the same documentation requirements of reference schema documents.
+> Refer to **[Namespaces in XML](/reference/concepts/namespace/xml)** for information about how to set up a new NIEM XML Schema.  Make sure to use the appropriate **EXT** conformance target (further described below).
 
 <!--more-->
+
+Because the application of extension schema documents does not diverge much from reference schema documents, they must satisfy the same documentation requirements of reference schema documents.
 
 ## Why Extension Schema Documents
 
@@ -50,18 +50,10 @@ EXTs generally contain new data component declarations that may be derived from,
 declaration of each new data component in an extension schema document must include an
 `xs:annotation` element that provides its semantics and NIEM-specific relationships.
 
-## EXT Example
+## EXT Conformance Target
 
-```xml
-  <?xml version="1.0" encoding="US-ASCII"?>
-  <xs:schema targetNamespace="http://release.niem.gov/niem/niem-core/4.0/" version="1" xsi:schemaLocation="http://release.niem.gov/niem/appinfo/4.0/ ../../appinfo/4.0/appinfo.xsd http://release.niem.gov/niem/conformanceTargets/3.0/ ../../conformanceTargets/3.0/conformanceTargets.xsd" ct:conformanceTargets="http://reference.niem.gov/niem/specification/naming-and-design-rules/3.0/#ExtensionSchemaDocument" xmlns:niem-xs="http://release.niem.gov/niem/proxy/xsd/3.0/" xmlns:structures="http://release.niem.gov/niem/structures/3.0/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:appinfo="http://release.niem.gov/niem/appinfo/3.0/" xmlns:ct="http://release.niem.gov/niem/conformanceTargets/3.0/" xmlns:nc="http://release.niem.gov/niem/niem-core/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <xs:import schemaLocation="../../proxy/xsd/3.0/xs.xsd" namespace="http://release.niem.gov/niem/proxy/xsd/3.0/"/>
-    <xs:import schemaLocation="../../structures/3.0/structures.xsd" namespace="http://release.niem.gov/niem/structures/3.0/"/>
-    <xs:element name="DateRepresentation" abstract="true"/>
-    <xs:element name="DateTime" type="niem-xs:dateTime" substitutionGroup="nc:DateRepresentation"/>
-  </xs:schema>
-```
+An EXT must include the appropriate conformance target, as defined by the NDR.  The conformance target identifier for a NDR 4.0-based EXT is:
 
-## Detailed Reference
+> `http://reference.niem.gov/niem/specification/naming-and-design-rules/4.0/#ExtensionSchemaDocument`
 
-{% include icon-list.html links=page.links %}
+Refer to the information about the [Conformance Targets Attribute Specification]({{ site.data.pages.ctas }}) for more information.

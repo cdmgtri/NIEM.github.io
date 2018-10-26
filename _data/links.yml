@@ -15,6 +15,7 @@ niem_communities: https://www.niem.gov/communities
 # Specifications
 
 ndr: https://reference.niem.gov/niem/specification/naming-and-design-rules/4.0/niem-ndr-4.0.html
+ndr_folder: https://reference.niem.gov/niem/specification/naming-and-design-rules/4.0/
 ndr_repo:   https://github.com/NIEM/NIEM-NDR/
 ndr_issues: https://github.com/NIEM/NIEM-NDR/issues
 
@@ -47,3 +48,5 @@ movement: https://beta.movement.niem.gov/#/
 migration: https://tools.niem.gov/niemtools/migration/index.iepd
 
 contesa: https://tools.niem.gov/contesa/
+
+oxygen: https://www.oxygenxml.com/
