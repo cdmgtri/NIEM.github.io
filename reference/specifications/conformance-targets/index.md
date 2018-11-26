@@ -1,7 +1,8 @@
 ---
-title: Conformance Targets Attribute Specification
-short: Conformance Targets
-description: A specification that defines how NIEM XML documents classify what kind of artifact they are.
+title: NIEM Conformance Targets Attribute Specification
+short: Conformance Targets Attribute
+icon: fa-book
+description: The Conformance Targets Attribute Specification (CTAS) defines how NIEM XML documents classify what kind of artifact they are through the use of a conformance targets attribute.
 ---
 
 The **[NIEM Conformance Targets Attribute Specification (CTAS)]({{site.data.links.ctas}})** defines how NIEM XML documents classify what kind of artifact they are.  This is not always obvious by inspection, so making this information explicit is important; it also supports automated conformance validation by NIEM tools.

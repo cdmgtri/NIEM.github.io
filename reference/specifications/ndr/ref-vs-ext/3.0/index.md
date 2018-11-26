@@ -22,7 +22,7 @@ a schema document that is intended to provide definitions of schema components
 that are intended for reuse within a more narrow scope than those defined by a
 reference schema document.
 
-## Rules:
+## Rules
 
 The following sections outline differences in NDR rules between REF and EXT schema documents.
 
