@@ -8,6 +8,8 @@ links:
   group: other
 - url: /reference/specifications/ndr/
   group: specs
+- url: /reference/specifications/conformance/
+  group: specs
 - url: /reference/specifications/conformance-targets/
   group: specs
 - url: /reference/specifications/code-lists/
