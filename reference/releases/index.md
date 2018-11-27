@@ -4,7 +4,6 @@
   description: A release is a versioned set of schemas and supporting artifacts published by the NIEM PMO.
   links:
   - url: /reference/releases/development/
-  - url: /reference/releases/core-supplement/
   - url: /reference/releases/location/
   - url: /reference/releases/artifacts/
   - url: /reference/releases/history/

@@ -50,3 +50,8 @@ migration: https://tools.niem.gov/niemtools/migration/index.iepd
 contesa: https://tools.niem.gov/contesa/
 
 oxygen: https://www.oxygenxml.com/
+
+# Core Supplements
+
+cs_3: https://release.niem.gov/niem/3.0/du-cs-3.0.html
+cs_4: https://release.niem.gov/niem/4.0/du-cs-4.0.html
