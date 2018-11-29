@@ -1,14 +1,12 @@
 ---
-  title: Releases
+  title: Release
   icon: fa-files-o
-  description: A release is a versioned set of schemas and supporting artifacts published by the NIEM PMO.
+  description: A release is a versioned set of schemas and supporting artifacts published by the NIEM Management Office.  Release schemas include NIEM Core, domains and code tables.
   links:
-  - url: /reference/releases/development/
-  - url: /reference/releases/location/
-  - url: /reference/releases/artifacts/
-  - url: /reference/releases/history/
-  - url: /reference/releases/stats/
-  todo: Release section
+  - url: /reference/artifacts/releases/release/development/
+  - url: /reference/artifacts/releases/release/location/
+  - url: /reference/artifacts/releases/release/history/
+  - url: /reference/artifacts/releases/release/stats/
 ---
 
 - TOC
@@ -17,6 +15,8 @@
 ## Overview
 
 A NIEM release is a coherent set of schemas and supporting artifacts representing a specific version of the NIEM data model.  Each release is produced in collaboration with the [NIEM Business Architecture Committee]({{site.data.links.nbac}}) (NBAC), the [NIEM Technical Architecture Committee]({{site.data.links.ntac}}) (NTAC), and the general NIEM community.
+
+The schemas are the authoritative source for the published content.
 
 > Visit [this link](../../niem-releases/) to find out more about the current release.
 {:.note}

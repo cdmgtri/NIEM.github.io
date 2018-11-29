@@ -1,11 +1,13 @@
 ---
   title: Code Spreadsheet
+  description: The NIEM Code spreadsheet provides user documentation for the codes defined in a NIEM release.
+  icon: fa-table
 ---
 
 - TOC
 {:toc}
 
-This spreadsheet provides user documentation for the codes defined in NIEM.
+{{ page.description }}
 
 This file is located in the root of the package or repo.  The file name is `niem-[version]-codes.xlsx`.
 

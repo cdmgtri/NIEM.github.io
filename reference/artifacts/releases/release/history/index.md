@@ -3,9 +3,38 @@
   short: History
   icon: fa-history
   description: A timeline of NIEM releases and significant features.
-  links:
-  - url: /reference/releases/history/domain/
 ---
+
+## Domain History
+
+The following is a list of NIEM releases along with their newly created domains.
+
+- **NIEM 1.0**
+  - Emergency Management (em)
+  - Immigration (im)
+  - Infrastructure Protection (ip)
+  - Intelligence (intel)
+  - International Trade (it)
+  - Justice (j)
+  - Screening (scr)
+- **NIEM 2.1**
+  - Chemical, Biological, Radiological, Nuclear (cbrn)
+  - Family Services (fs)
+  - Maritime (m)
+- **NIEM 3.0**
+  - Biometrics (biom)
+  - *Family Services (fs) became Children, Youth, and Family Services (cyfs)*
+  - *Military Operations (mo) originated as a domain update after the NIEM 3.0 release*
+- **NIEM 3.1**
+  - Human Services (hs)
+  - Military Operations (mo)
+- **NIEM 3.2**
+  - Surface Transportation (st)
+- **NIEM 4.0**
+  - Agriculture (ag)
+  - *Children, Youth, and Family Service (cyfs) content was adopted by Human Services (hs)*
+
+## Release History
 
 <table>
   <tr>
@@ -168,7 +197,7 @@
     <td>
       <ul>
         <li>Represented GENC codes via new Code Lists spec</li>
-        <li>See <a href="https://github.com/niem/niem-releases">release notes</a> for changes</li>
+        <li>See <a href="https://github.com/NIEM/NIEM-Releases/blob/niem-4.0/README.md">release notes</a> for changes</li>
       </ul>
     </td>
     <td>
@@ -176,6 +205,18 @@
         <li>Agriculture</li>
         <li>Merged CYFS into Human Services</li>
       </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/NIEM/NIEM-Releases/tree/niem-4.1">NIEM 4.1</a></td>
+    <td>2018</td>
+    <td>11,350</td>
+    <td>
+      <ul>
+        <li>See <a href="https://github.com/NIEM/NIEM-Releases/blob/niem-4.1/README.md">release notes</a> for changes</li>
+      </ul>
+    </td>
+    <td>
     </td>
   </tr>
 </table>

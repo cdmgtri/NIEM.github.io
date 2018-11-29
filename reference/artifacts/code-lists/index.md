@@ -1,8 +1,7 @@
 ---
   title: Code Lists
-  short: Code Lists
   icon: fa-sitemap
-  description: Code Lists
+  description: NIEM Code Lists are special files that support the use of enhanced code lists in NIEM, beyond the basic capabilities provided by XML and JSON schema enumerations.
   links:
     - url: /reference/artifacts/code-lists/structure/
     - url: /reference/artifacts/code-lists/usage/

@@ -1,6 +1,7 @@
 ---
   title: Release Statistics
   short: Stats
+  icon: fa-list-ol
   right: [1,2,3]
   widths: ["110px", "150px", "150px", "150px"]
 ---

@@ -1,8 +1,10 @@
 ---
   title: Model Spreadsheet
+  icon: fa-file-excel-o
+  description: The NIEM model spreadsheet provides user documentation for the properties and types of Core and the domain namespaces.
 ---
 
-This spreadsheet provides user documentation for the properties and types of Core and the domain namespaces.
+{{ page.description}}
 
 Each of these namespaces is represented in its own tab, with several supporting tabs at the end of the spreadsheet.
 

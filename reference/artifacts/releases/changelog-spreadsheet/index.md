@@ -1,9 +1,10 @@
 ---
   title: Change Log Spreadsheet
-  short: Change Log
+  description: The NIEM change log spreadsheet documents the changes between the given release and the previous one.
+  icon: fa-arrows-alt
 ---
 
-This spreadsheet documents the changes between the given release and the previous one.
+{{ page.description }}
 
 Items from the previous release are identified in the left-most columns, with blue column headers.  Change information is provided under the yellow column header.  And items from the current release are provided in the right-most columns, under the red column headers.
 
