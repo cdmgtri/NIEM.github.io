@@ -8,6 +8,8 @@ links:
   group: other
 - url: /reference/specifications/ndr/
   group: specs
+- url: /reference/specifications/mpd/
+  group: specs
 - url: /reference/specifications/conformance/
   group: specs
 - url: /reference/specifications/conformance-targets/
@@ -15,14 +17,13 @@ links:
 - url: /reference/specifications/code-lists/
   group: specs
 todo:
-- MPD
 - HLVA
 deferred:
 - SIX
 - UML Profile
 ---
 
-{{page.description}}
+{{ page.description }}
 
 See the [Normative Rules](normative-rules) section for a compiled list of the normative rules from NIEM specifications, including the NDR and the MPD Specification.
 

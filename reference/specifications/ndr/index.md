@@ -1,6 +1,6 @@
 ---
 title: NIEM Naming and Design Rules (NDR) Specification
-short: NDR
+short: Naming and Design Rules (NDR)
 icon: fa-book
 description: The NIEM Naming and Design Rules (NDR) describe the architecture of the NIEM data model and its representation in XML.  It specifies principles and enforceable rules for NIEM data components and schemas.
 links:
