@@ -51,12 +51,17 @@ The MPD Specification describes the following artifacts:
 {% assign xmlCatalogPage = site.pages
     | where: "url", "/reference/artifacts/xml-catalog/" | first %}
 
+{% assign conformanceReportPage = site.pages
+    | where: "url", "/reference/artifacts/conformance-report/" | first %}
+
 | Artifact | Description |
 | -------- | ----------- |
 | [MPD Catalog]({{ mpdCatalogPage.url | relative_url }}) | {{ mpdCatalogPage.description }} |
 | Change Log | An artifacts that describes the changes applies to an MPD since its previous version. |
 | ReadMe | The initial source of human-readable information about the MPD. |
 | [XML Catalog]({{ xmlCatalogPage.url | relative_url }}) | {{ xmlCatalogPage.description }} |
+| Sample instances | A sample instance is an example of the message, with actual or example data.  These can be very helpful for implementers of the IEPD. |
+| [Conformance Report / Assertion]({{ conformanceReportPage.url | relative_url }}) | {{ conformanceReportPage.description }} |
 
 ## Optional Artifacts
 

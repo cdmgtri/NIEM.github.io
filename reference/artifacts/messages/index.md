@@ -4,13 +4,48 @@ description: IEPD artifacts are related to the packages and files that describe 
 icon: fa-envelope-o
 links:
   - url: /reference/artifacts/messages/iepd/
+    group: message
   - url: /reference/artifacts/messages/iep/
+    group: message
   - url: /reference/artifacts/messages/subset-schema/
+    group: artifact
   - url: /reference/artifacts/messages/extension-schema/
+    group: artifact
   - url: /reference/artifacts/messages/mpd-catalog/
+    group: artifact
+  - url: /reference/artifacts/messages/conformance-report/
+    group: artifact
 todo:
 - add mpd catalog
 - add other IEPD artifacts (see reference/specifications/mpd for gaps)
 ---
 
-{% include icon-list.html links=page.links %}
+The following are artifacts that normatively define NIEM messages and message specifications:
+
+{% assign messageLinks = page.links | where: "group", "message" %}
+{% include icon-list.html links=messageLinks %}
+
+---
+
+## IEPD Artifacts
+
+The following are artifacts found in an IEPD:
+
+{% assign artifactLinks = page.links | where: "group", "artifact" %}
+{% include icon-list.html links=artifactLinks %}
+
+---
+
+## Additional Artifacts
+
+### README
+
+A `README` artifact (formerly known as a master document) is mandatory for all IEPDs. IEPDs are often built by different developers, and may be registered into a repository for reuse by many other users, developers, and implementers; therefore, a minimal form of documentation is absolutely necessary. An IEPD `README` file is the primary source and starting point for human readable documentation, and should reference (and describe) any other separate documentation artifacts. This requirement ensures that baseline documentation is consistently rooted in a clearly visible artifact within each IEPD.
+
+### Sample Instance Documents
+
+A sample instance is an example of the message, with actual or example data.  These can be very helpful for implementers of the IEPD.
+
+### Change Log
+
+A change log can be a summary or a detailed description of the changes in this IEPD since the previous versions.
