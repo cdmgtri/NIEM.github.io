@@ -3,23 +3,23 @@ title: Reusable XML Snippets
 icon: fa-database
 description: Reusable XML snippets of the various NIEM XML components. These snippets could also be called patterns or templates.
 links:
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/schema-header/
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/property-element/
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/property-attribute/
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/complex-type-with-sub-properties/
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/complex-type-with-a-value/
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/simple-type/
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/abstract-and-substitutable/
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/code-set-basic/
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/code-set-substitution/
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/facets/
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/association/
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/augmentation/
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/augmentation-points/
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/metadata/
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/role/
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/external-standards-and-adapters/
-- url: /reference/iepd/iepd-starter-kit/reusable-xml-snippets/representation-terms-and-phrases/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/schema-header/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/property-element/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/property-attribute/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/complex-type-with-sub-properties/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/complex-type-with-a-value/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/simple-type/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/abstract-and-substitutable/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/code-set-basic/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/code-set-substitution/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/facets/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/association/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/augmentation/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/augmentation-points/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/metadata/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/role/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/external-standards-and-adapters/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/reusable-xml-snippets/representation-terms-and-phrases/
 ---
 Contained below are reusable XML snippets of the various NIEM XML components. These snippets could also be called patterns or templates. They are available for NIEM developers to cut and paste directly into their integrated development environment to save development time. Examples from the “Hello World” IEPD series are provided so developers can see an actual worked example.
 

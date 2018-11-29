@@ -1,5 +1,5 @@
 ---
-  title: Subset Schemas
+  title: Subset Schema
   icon: fa-filter
   description: A subset schema is a customized version of a NIEM schema that contains only the properties, types, and codes that are needed for a particular information exchange, plus any of their required dependencies.
 ---
@@ -109,13 +109,18 @@ NIEM adopts an optional and over-inclusive strategy in order to support a broad 
 
 Cardinality can be adjusted as long as the new cardinality is permitted by the original release cardinality.
 
-If an element in a type has cardinality `(1, unbounded)`, then the following are examples of valid and invalid adjustments to the original cardinality.
+{:.example}
+> If an element in a type has cardinality `(1, unbounded)`, then the following are examples of valid and invalid adjustments in a subset to the original cardinality.
 
 {:.valid}
-> <br> These cardinalities fall within the original cardinality range: <br> (1, 1) <br> (2, 10)
+> These cardinalities fall within the original cardinality range:
+> - (1, 1)
+> - (2, 10)
 
 {:.invalid}
-> <br> 0 is not permitted in the original cardinality range: <br> (0, 1) <br> (0, unbounded)
+> These cardinalities fall outside the original cardinality range (0 was not permitted):
+> - (0, 1)
+> - (0, unbounded)
 
 **Element options:**
 

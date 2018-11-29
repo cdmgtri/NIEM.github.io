@@ -1,7 +1,7 @@
 ---
 title: Map and Model
 icon: fa-envelope-o
-description: During the map and model phase, you compare your information exchange requirements to what's in NIEM, and then define a mapping between your requirements and NIEM content. You use a mapping document, which may be a spreadsheet or similar tabular form. 
+description: During the map and model phase, you compare your information exchange requirements to what's in NIEM, and then define a mapping between your requirements and NIEM content. You use a mapping document, which may be a spreadsheet or similar tabular form.
 ---
 
 {{ page.description}}
@@ -94,7 +94,7 @@ After you complete the entries in the Source Data Columns, identify the NIEM ele
 
 1. The **NIEM Element Path** is the path of the NIEM element within the NIEM model.  Join the tree elements together to make the path and enter that in the column.<br>![Element Path](assets/mappingfinal.png "Element Path")
 
-2. With the information you have now, you can begin the schema [build and validate](/reference/iepd/lifecycle/build-and-validate "Build and Validate") process.
+2. With the information you have now, you can begin the schema [build and validate]({{ site.data.pages.iepd }}/lifecycle/build-and-validate "Build and Validate") process.
 
 ### Model Searching Tips
 

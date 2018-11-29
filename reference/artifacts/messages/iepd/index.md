@@ -1,18 +1,15 @@
 ---
-title: Information Exchange Package Documentation
+title: Information Exchange Package Documentation (IEPD)
 short: IEPD
 icon: fa-sitemap
-description: Description of Information Exchange Package Documentation (IEPD).
+description: An Information Exchange Package Documentation (IEPD) is a collection of NIEM artifacts. They define and describe the context, content, semantics, and structure of one or more implementable information exchanges.
 links:
-- url: /reference/iepd/lifecycle/
-- url: /reference/iepd/structure/
-- url: /reference/iepd/iepd-starter-kit/
-- url: /reference/iepd/iepd-versions/
+- url: /reference/artifacts/messages/iepd/lifecycle/
+- url: /reference/artifacts/messages/iepd/iepd-starter-kit/
+- url: /reference/artifacts/messages/iepd/iepd-versions/
 ---
 
-Information Exchange Package Documenation (IEPD) is a collection of NIEM artifacts.
-They define and describe the context, content, semantics, and structure of one or more implementable
-information exchanges.
+{{ page.description }}
 
 {:.features}
 >
@@ -29,7 +26,7 @@ information exchanges.
 > and Subset Schema Documents. IEPDs provide a self-contained definition for
 > derived information exchanges, thus they must be self documenting.
 
-![IEPD Content](/reference/iepd/assets/iepdcontent.png "IEPD Content")
+![IEPD Content](assets/iepd-content.png "IEPD Content")
 
 <!--more-->
 

@@ -2,7 +2,7 @@
 title: Scenario Planning
 short: Scenario Planning
 icon: fa-envelope-o
-description: The scenario planning phase is the first step you take in IEPD development.  
+description: The scenario planning phase is the first step you take in IEPD development.
 ---
 
 {{ page.description}}
@@ -99,4 +99,4 @@ A sequence diagram shows how applications or systems operate with one another. I
 ![General Sequence Diagram](assets/sequencediagram02.png "General Sequence Diagram")
 
 When you have answers to the questions and complications discussed earlier, and one or more detailed diagrams, you can
-proceed to the next phase, [Analyze Requirements](/reference/iepd/lifecycle/analyze-requirements "Analyze Requirements").
+proceed to the next phase, [Analyze Requirements](../analyze-requirements "Analyze Requirements").

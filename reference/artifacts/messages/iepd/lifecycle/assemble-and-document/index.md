@@ -1,7 +1,7 @@
 ---
 title: Assemble and Document
 icon: fa-envelope-o
-description: Assemble and Document is the next phase in IEPD development after the [Build and Validate](/reference/iepd/lifecycle/build-and-validate "Build and Validate") phase.
+description: Assemble and Document is the next phase in IEPD development after the [Build and Validate](../build-and-validate "Build and Validate") phase.
 ---
 
 {{ page.description}}

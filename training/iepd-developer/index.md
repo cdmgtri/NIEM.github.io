@@ -14,13 +14,13 @@ links:
 
 {{ page.description}}
 
-The [IEPD](/reference/iepd/ "IEPD") allows senders and receivers to exchange information in a manner that both understand. The exchange is typically in the form of XML schema documents that define XML instance documents, and other documents that describe, for example, the version history and contents of the documents.
+The [IEPD]({{ site.data.pages.iepd }} "IEPD") allows senders and receivers to exchange information in a manner that both understand. The exchange is typically in the form of XML schema documents that define XML instance documents, and other documents that describe, for example, the version history and contents of the documents.
 
 You are here to learn the steps for developing an IEPD according to the IEPD Lifecycle.
 
 ## IEPD Lifecycle
 
-You develop the IEPD according to a six-phase lifecycle, as shown graphically and listed in the following sections. The phases link to pages with detailed, introductory information about that phase. More lifecycle phase information can be found in their [reference section](/reference/iepd/lifecycle/ "Lifecycle Phase Reference").
+You develop the IEPD according to a six-phase lifecycle, as shown graphically and listed in the following sections. The phases link to pages with detailed, introductory information about that phase. More lifecycle phase information can be found in their [reference section]({{ site.data.pages.iepd }}/lifecycle/ "Lifecycle Phase Reference").
 
 ![IEPD Lifecycle](iepdlifecycle01.png "IEPD Lifecycle")
 

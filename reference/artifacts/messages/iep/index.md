@@ -1,10 +1,8 @@
 ---
-  title: Information Exchange Package
+  title: Information Exchange Package (IEP)
   short: IEP
-  icon: fa-sitemap
-  description: Description of Information Exchange Package.
-  links:
-    - url: /training/iepd-implementer/
+  icon: fa-envelope-o
+  description: An Information Exchange Package (IEP) is an actual NIEM message exchanged between stakeholders.  The format for this message is defined by the schemas and artifacts in its corresponding Information Exchange Package Documentation (IEPD).
 ---
 
 Information Exchange Packages (IEPs) are derived from superceding
@@ -32,7 +30,3 @@ the stakeholders in the information exchange.
 An Information Exchange Package (IEP) is a NIEM message. It carries exchange data. The format, rules, and documentation for the message are defined by its IEPD, or NIEM message specification.
 
 In NIEM, an information exchange instance is an IEP. An IEP is an XML instance XML document that conforms to the conformance target defined by a `c:IEPConformanceTarget` element in the MPD catalog document of a model package description. An IEP is a MPD that satisfies all the validity constraints for its class as defined by its superceding IEPD, and that has an XML document root element that is declared in either a NIEM Reference or Extension Schema Document.
-
-## Detailed Reference
-
-{% include icon-list.html links=page.links %}
