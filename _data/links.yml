@@ -34,6 +34,8 @@ hlva: https://reference.niem.gov/niem/specification/high-level-version-architect
 mpd: https://reference.niem.gov/niem/specification/model-package-description/3.0.1/
 mpd_spec: https://reference.niem.gov/niem/specification/model-package-description/3.0.1/model-package-description-3.0.1.html
 
+mpd_catalog_xsd: https://reference.niem.gov/niem/specification/model-package-description/3.0.1/xsd-mpd-catalog/mpd-catalog-3.0.xsd
+
 six: https://reference.niem.gov/niem/specification/sch-in-xsd/1.0alpha4/niem-schematron-in-xsd-1.0alpha4-2016-03-16.html
 
 # Tools
