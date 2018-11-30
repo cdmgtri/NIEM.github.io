@@ -48,6 +48,8 @@ This is demonstrated in the example below from a 4.0 release schema:
 <xs:schema
   xmlns:ct="http://release.niem.gov/niem/conformanceTargets/3.0/"
 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
   xsi:schemaLocation="http://release.niem.gov/niem/conformanceTargets/3.0/
       ../../../utility/conformanceTargets/3.0/conformanceTargets.xsd"
 
@@ -58,6 +60,7 @@ This is demonstrated in the example below from a 4.0 release schema:
 
 {:.note}
 - The namespace prefix `ct` is assigned to the identifier (target namespace) of the conformance targets schema.
+- The namespace prefix `xsi` is represents the XML Schema instance namespace.
 - The `xsi:schemaLocation` attribute assigned the target namespace of the conformance targets schema to a relative location of that file.  The file location may also be defined outside of this schema using a [XML Catalog](../../artifacts/xml-catalog/).
 - The `ct:conformanceTargets` attribute contains all applicable conformance target identifiers.
 
