@@ -1,6 +1,6 @@
 ---
   title: Core Supplement
-  ico: fa-plus
+  icon: fa-plus
   description: A Core Supplement is an incremental NIEM release that contains new or updated components for the NIEM Core namespace.  These changes are published in separate schemas that can be used in addition to the original Core namespace. Core Supplements are used as a way of 'adjusting' Core content while it is locked between major releases.
 ---
 

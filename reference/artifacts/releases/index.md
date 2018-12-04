@@ -7,6 +7,8 @@ links:
     group: release
   - url: /reference/artifacts/releases/core-supplement/
     group: release
+  - url: /reference/artifacts/releases/domain-update/
+    group: release
   - url: /reference/artifacts/releases/xml-schemas/
     group: artifact
   - url: /reference/artifacts/releases/readme/
