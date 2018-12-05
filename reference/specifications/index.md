@@ -16,6 +16,8 @@ links:
   group: specs
 - url: /reference/specifications/code-lists/
   group: specs
+- url: /reference/specifications/hlva/
+  group: specs
 todo:
 - HLVA
 deferred:
