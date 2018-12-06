@@ -3,6 +3,8 @@
 
 ssgt: /reference/tools/ssgt/
 contesa: /reference/tools/contesa/
+movement: /reference/tools/movement/
+migration: /reference/tools/migration/
 
 
 # Specs
@@ -12,6 +14,7 @@ ctas: /reference/specifications/conformance-targets/
 mpd: /reference/specifications/mpd/
 hlva: /reference/specifications/hlva/
 conformance: /reference/specifications/conformance/
+code-lists: /reference/specifications/code-lists/
 
 
 # Artifacts
