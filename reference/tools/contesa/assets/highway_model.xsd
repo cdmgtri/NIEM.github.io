@@ -8,17 +8,16 @@
   xmlns:niem-xs="http://release.niem.gov/niem/proxy/xsd/4.0/"
   xmlns:structures="http://release.niem.gov/niem/structures/4.0/"
   xmlns:ct="http://release.niem.gov/niem/conformanceTargets/3.0/"
-  ct:conformanceTargets="http://reference.niem.gov/niem/specification/naming-and-design-rules/4.0/#ExtensionSchemaDocument"
   xmlns:geo="http://release.niem.gov/niem/adapters/geospatial/4.0/"
   xmlns:gml="http://www.opengis.net/gml/3.2"
-  elementFormDefault="qualified"> 
+  elementFormDefault="qualified">
 
   <xs:annotation>
     <xs:documentation>
-      A NIEM conformant extension schema for the Crash model example.
+      NIEM conformant extension schema for the Crash model example.
     </xs:documentation>
   </xs:annotation>
-    
+
   <xs:import namespace="http://release.niem.gov/niem/domains/jxdm/6.0/"/>
   <xs:import namespace="http://release.niem.gov/niem/niem-core/4.0/"/>
   <xs:import namespace="http://release.niem.gov/niem/adapters/geospatial/4.0/"/>
@@ -28,7 +27,7 @@
   <xs:element name="CrashInfo" type="exch:CrashInfoType">
     <xs:annotation>
       <xs:documentation>
-        A root node of the Crash Info IEP.
+        Root node of the Crash Info IEP.
       </xs:documentation>
     </xs:annotation>
   </xs:element>
@@ -36,19 +35,19 @@
   <xs:complexType name="CrashInfoType">
     <xs:annotation>
       <xs:documentation>
-        A data type for the CrashInfo element.
+        The CrashInfo element.
       </xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="structures:ObjectType">
-        <xs:sequence>
+        <xs:all>
           <xs:element ref="nc:Person" minOccurs="1" maxOccurs="unbounded"/>
           <xs:element ref="j:Crash" minOccurs="1" maxOccurs="1"/>
           <xs:element ref="j:Charge" minOccurs="0" maxOccurs="unbounded"/>
           <xs:element ref="j:PersonChargeAssociation" minOccurs="0" maxOccurs="unbounded"/>
-        </xs:sequence>
+        </xs:all>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
- 
+
 </xs:schema>

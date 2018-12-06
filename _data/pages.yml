@@ -11,6 +11,7 @@ ndr: /reference/specifications/ndr/
 ctas: /reference/specifications/conformance-targets/
 mpd: /reference/specifications/mpd/
 hlva: /reference/specifications/hlva/
+conformance: /reference/specifications/conformance/
 
 
 # Artifacts
