@@ -15,7 +15,4 @@ NIEM is a data model that defines many reusable components and rules for buildin
 
 This section represents our *work in progress* and is part of our [training modernization](http://niem.github.io/training/). As we knock out content, we push it out to the user community for [feedback](https://github.com/NIEM/NIEM.github.io/issues) and use.
 
-{:.note}
->See the [older resources](https://www.niem.gov/techhub/iepd-resources) for reference purposes.
-
 {% include section-list.html sections=page.links %}
