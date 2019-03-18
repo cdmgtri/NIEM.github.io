@@ -2,7 +2,7 @@
 title: Analyze Requirements
 short: Analyze Requirements
 icon: fa-envelope-o
-description: The analyze requirements phase is the next step in IEPD development.  
+description: The analyze requirements phase is the next step in IEPD development.
 ---
 
 {{ page.description }}
@@ -42,4 +42,4 @@ Follow a formal process to define and validate business requirements and accurat
 - Analyze requirements.
 - Verify and validate requirements.
 
-Refer to the detailed [business case example](/training/iepd-developer/analyze-requirements) in Training.
+Refer to the detailed [business case example]({{ "/training/iepd-developer/analyze-requirements/" | relative_url }}) in Training.

@@ -60,7 +60,7 @@ The NBAC will ensure that domain namespaces meet NIEM conformance rules for majo
 
 ### Architecture
 
-The [NIEM Technical Architecture Committee (NTAC)]({{ site.data.links.ntac }}) is responsible for the architecture of the NIEM model, as defined by the [NIEM Naming and Design Rules (NDR)]({{ site.data.pages.ndr }}) and other [NIEM specifications](../).
+The [NIEM Technical Architecture Committee (NTAC)]({{ site.data.links.ntac | relative_url }}) is responsible for the architecture of the NIEM model, as defined by the [NIEM Naming and Design Rules (NDR)]({{ site.data.pages.ndr | relative_url }}) and other [NIEM specifications](../).
 
 ## Release processes
 

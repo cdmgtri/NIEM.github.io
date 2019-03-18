@@ -26,7 +26,7 @@ vocabulary above and beyond the vocabulary available from REFs.
 > - Can serve as the core schematic definitions of an IEPD.
 
 {:.note}
-> Refer to **[Namespaces in XML](/reference/concepts/namespace/xml)** for information about how to set up a new NIEM XML Schema.  Make sure to use the appropriate **EXT** conformance target (further described below).
+> Refer to **[Namespaces in XML]({{ "/reference/concepts/namespace/xml/" | relative_url }})** for information about how to set up a new NIEM XML Schema.  Make sure to use the appropriate **EXT** conformance target (further described below).
 
 <!--more-->
 
@@ -44,7 +44,7 @@ by exactly one REF or EXT.
 A developer who determines that NIEM is missing elements required for a given information
 exchange may use EXTs to account for such requirement shortfalls. An EXT may contain data
 components built from REFs or from non-conformant external schemas through the use of
-[adapter types and definitions](/reference/concepts/adapter). Employment of EXTs in an IEPD, however, is entirely optional.
+[adapter types and definitions]({{ "/reference/concepts/adapter/" | relative_url }}). Employment of EXTs in an IEPD, however, is entirely optional.
 
 EXTs generally contain new data component declarations that may be derived from, or reference, existing NIEM data components. The definition or
 declaration of each new data component in an extension schema document must include an
@@ -56,4 +56,4 @@ An EXT must include the appropriate conformance target, as defined by the NDR.  
 
 > `http://reference.niem.gov/niem/specification/naming-and-design-rules/4.0/#ExtensionSchemaDocument`
 
-Refer to the information about the [Conformance Targets Attribute Specification]({{ site.data.pages.ctas }}) for more information.
+Refer to the information about the [Conformance Targets Attribute Specification]({{ site.data.pages.ctas | relative_url }}) for more information.

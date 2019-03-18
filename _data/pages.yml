@@ -19,5 +19,8 @@ code-lists: /reference/specifications/code-lists/
 
 # Artifacts
 
-subset: /reference/artifacts/subset-schema/
+subset: /reference/artifacts/messages/subset-schema/
 iepd: /reference/artifacts/messages/iepd/
+iepd-lifecycle: /reference/artifacts/messages/iepd/lifecycle/
+iepd-starter-kit: /reference/artifacts/messages/iepd/iepd-starter-kit/
+releases: /reference/artifacts/releases/

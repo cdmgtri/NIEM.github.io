@@ -8,7 +8,7 @@
 The **[NIEM Conformance Specification]({{ site.data.links.conformance }})** introduces NIEM conformance and provides a general normative definition for its meaning, how it applies, and to what it does and does not apply.  It describes the benefits of conformance, and refers to sources of information, tools, and help.
 
 {:.note}
-> The Conformance Specification is currently out of date, with references to NIEM 3.0 and NDR 3.0.  The information is still valid, but the 4.0 version of the [NDR]({{ site.data.pages.ndr }}) should be used where appropriate.
+> The Conformance Specification is currently out of date, with references to NIEM 3.0 and NDR 3.0.  The information is still valid, but the 4.0 version of the [NDR]({{ site.data.pages.ndr | relative_url }}) should be used where appropriate.
 
 The term *conformance* is often used very broadly, but it has a very specific meaning within NIEM.  Artifacts, like schemas and IEPDs, can conform to a specific conformance target.
 
@@ -36,7 +36,7 @@ In addition to describing what a conformance target is, NIEM specifications assi
 > The images below show information about conformance target `reference schema document (REF)` from the NDR 4.0 specification.
 >
 > - The first image shows the definition of the conformance target and its conformance target identifier.
-> - The second image shows two of the normative rules for the REF conformance target.  Note that the first rule is free text and must be checked manually; the second rule is written in Schematron and can be validated using [ConTesA]({{ site.data.pages.contesa }}).
+> - The second image shows two of the normative rules for the REF conformance target.  Note that the first rule is free text and must be checked manually; the second rule is written in Schematron and can be validated using [ConTesA]({{ site.data.pages.contesa | relative_url }}).
 
 ![NDR conformance target "reference schema document"](assets/ndr-ref.png)
 {:.bordered}
@@ -51,7 +51,7 @@ A NIEM artifact will declare its applicable conformance targets by referencing t
 - An IEPD can declare the `IEPD` conformance target from the MPD 3.0.1 specification.
 - A CSV code list can declare the `CSV Code List Document` conformance target from the Code Lists 4.0 specification.
 
-See the [Conformance Targets Attribute Specification]({{ site.data.pages.ctas }}) for more information on how this is done.
+See the [Conformance Targets Attribute Specification]({{ site.data.pages.ctas | relative_url }}) for more information on how this is done.
 
 ## NIEM Artifact Conformance
 
@@ -103,6 +103,6 @@ NIEM has practices, methods, and formats for the pieces that compose an informat
 
 We encourage developers to use tools provided by the NIEM program to construct and validate their information exchanges as NIEM-conformant, including:
 
-- The [NIEM Schema Subset Generation Tool (SSGT)]({{ site.data.pages.ssgt }}) to find and assemble NIEM data components into subset schemas.
+- The [NIEM Schema Subset Generation Tool (SSGT)]({{ site.data.pages.ssgt | relative_url }}) to find and assemble NIEM data components into subset schemas.
 - A schema development environment or editor to construct Extension Schemas and express additional concepts needed for an exchange.  See the [Concepts](../../concepts/) section for NIEM modeling techniques.
-- Ensure IEPDs and schemas follow the NIEM rules by using the [Conformance Testing Assistant (ConTesA)]({{ site.data.pages.contesa }}).
+- Ensure IEPDs and schemas follow the NIEM rules by using the [Conformance Testing Assistant (ConTesA)]({{ site.data.pages.contesa | relative_url }}).

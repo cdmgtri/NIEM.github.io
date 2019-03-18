@@ -7,7 +7,7 @@ description: Use Oxygen to test a XML schema for NDR conformance.
 [Oxygen XML Editor]({{ site.data.links.oxygen }}) is a commercial tool that provides a Schematron-validation capability that can be used to test NDR conformance of XML schemas.
 
 {:.note}
-> [ConTesA]({{ site.data.pages.contesa }}) is a free web tool provided by the NIEM program that also may be used to check NDR conformance.
+> [ConTesA]({{ site.data.pages.contesa | relative_url }}) is a free web tool provided by the NIEM program that also may be used to check NDR conformance.
 
 ## Setup
 

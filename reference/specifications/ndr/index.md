@@ -50,13 +50,13 @@ Schematron representations of NDR rules provide several key benefits.  There is 
 Schematron rules can also be used to validate XML documents.  This makes it *substantially* easier for users to test NIEM REF and EXT XML schemas against the NDR to see if those schemas conform to the given NDR conformance target.
 
 {:.note}
-> Two common ways to test NDR conformance are to use **[ConTesA]({{ site.data.pages.contesa }})** or to use **[Schematron validation](oxygen-schematron/)** within Oxygen XML Editor.
+> Two common ways to test NDR conformance are to use **[ConTesA]({{ site.data.pages.contesa | relative_url }})** or to use **[Schematron validation](oxygen-schematron/)** within Oxygen XML Editor.
 
 ## Rules
 
 Refer to the **[NDR]({{ site.data.links.ndr }})** for the full set of rules.  Descriptions, principles, and/or examples often accompany each rule.  The NDR Table of Contents and the rules index in the Appendix can be used to jump directly to particular topics.
 
-See the `Modeling` and `XML` sub-pages in the [Concepts section](/reference/concepts/) to a collection of rules relating to particular topics.  For example, the [Namespaces XML page](/reference/concepts/namespace/xml/) contains a list of NDR rules related to a namespace and its representation in NIEM XML (a XML schema).
+See the `Modeling` and `XML` sub-pages in the [Concepts section]({{ "/reference/concepts/" | relative_url }}) to a collection of rules relating to particular topics.  For example, the [Namespaces XML page]({{ "/reference/concepts/namespace/xml/" | relative_url }}) contains a list of NDR rules related to a namespace and its representation in NIEM XML (a XML schema).
 
 ### Example Rule
 
@@ -65,7 +65,7 @@ The image below shows a small excerpt from the NDR.
 {:.note}
 - Each rule shows which conformance targets they apply to.  In these cases, both rules apply to both REF and EXT schemas because they are labeled as `(REF, EXT)`
 - `Rule 10-47` is a descriptive, free-text rule.  Conformance for this rule must be checked manually.
-- `Rule 10-48` is written in Schematron and can be tested via [ConTesA]({{ site.data.pages.contesa }}) or [Oxygen](oxygen-schematron/).
+- `Rule 10-48` is written in Schematron and can be tested via [ConTesA]({{ site.data.pages.contesa | relative_url }}) or [Oxygen](oxygen-schematron/).
 
 {:.bordered}
 ![Example rules](assets/rule-examples.png)

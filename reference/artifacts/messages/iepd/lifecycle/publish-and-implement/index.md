@@ -27,4 +27,4 @@ NIEM does not dictate how you handle security and privacy issues. You must use y
 
 You can tag data with security and privacy, however, other technologies are required upon exchange implementation to enforce security and privacy rules.
 
-You also may [use metadata to describe specific requirements](/training/iepd-developer/publish-and-implement) in regard to information security and the handling of sensitive, privacy-protected information. The metadata allows systems that implement NIEM to automatically enforce rules that govern the use, protection, dissemination, and access controls for data being shared.
+You also may [use metadata to describe specific requirements]({{ "/training/iepd-developer/publish-and-implement" | relative_url }}) in regard to information security and the handling of sensitive, privacy-protected information. The metadata allows systems that implement NIEM to automatically enforce rules that govern the use, protection, dissemination, and access controls for data being shared.

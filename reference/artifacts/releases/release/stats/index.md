@@ -13,7 +13,7 @@ The following are statistics for the **4.0 release**.
 
 ## Number of Domains
 
-NIEM 4.0 has [14 domains](../../content/#domains).
+NIEM 4.0 has [14 domains]({{ "reference/content#domains" | relative_url }}).
 
 ## Summary Counts
 

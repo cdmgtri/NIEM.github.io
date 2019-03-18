@@ -28,7 +28,7 @@ The rules for development of reference schema documents are more restrictive tha
 - Made as regular and simple as possible.
 
 {:.note}
-> Refer to **[Namespaces in XML](/reference/concepts/namespace/xml)** for information about how to set up a new NIEM XML Schema.  Make sure to use the appropriate **REF** conformance target (further described below).
+> Refer to **[Namespaces in XML]({{ "/reference/concepts/namespace/xml/" | relative_url }})** for information about how to set up a new NIEM XML Schema.  Make sure to use the appropriate **REF** conformance target (further described below).
 
 <!--more-->
 
@@ -70,4 +70,4 @@ A REF must include the appropriate conformance target, as defined by the NDR.  T
 
 > `http://reference.niem.gov/niem/specification/naming-and-design-rules/4.0/#ReferenceSchemaDocument`
 
-Refer to the information about the [Conformance Targets Attribute Specification]({{ site.data.pages.ctas }}) for more information.
+Refer to the information about the [Conformance Targets Attribute Specification]({{ site.data.pages.ctas | relative_url }}) for more information.

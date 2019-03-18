@@ -10,7 +10,7 @@
 {{ page.description }}
 
 {:.note}
-> The [NIEM Naming and Design Rules (NDR) Specification]({{ site.data.pages.ndr }}) defines what an extension schema document (EXT) is and the set of rules it must follow in order to be considered NIEM-conformant.
+> The [NIEM Naming and Design Rules (NDR) Specification]({{ site.data.pages.ndr | relative_url }}) defines what an extension schema document (EXT) is and the set of rules it must follow in order to be considered NIEM-conformant.
 
 <!--more-->
 

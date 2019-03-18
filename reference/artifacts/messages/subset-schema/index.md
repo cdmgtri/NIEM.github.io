@@ -46,7 +46,7 @@ If you are developing multiple related IEPDs, you can choose to build a custom s
 
 ## Generating a Subset
 
-Creating a subset manually can be time-consuming and error-prone.  The **[Schema Subset Generation Tool (SSGT)]({{ site.data.pages.ssgt }})** can be used to search the NIEM data model, select components for a subset, calculate dependencies, and generate subset XML schemas.
+Creating a subset manually can be time-consuming and error-prone.  The **[Schema Subset Generation Tool (SSGT)]({{ site.data.pages.ssgt | relative_url }})** can be used to search the NIEM data model, select components for a subset, calculate dependencies, and generate subset XML schemas.
 
 ## Example subset of a NIEM type
 

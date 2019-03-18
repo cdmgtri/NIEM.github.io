@@ -16,7 +16,7 @@ If you are developing multiple IEPDs, you can build a custom subset for each one
 - To **[save your work](generate)**, you must download either the individual **wantlist** file (a SSGT-generated XML file that stores your selections) or the **full subset zip file**, which will contain the latest wantlist.
 - The **[only way to resume your work](../options/resume-work)** later on is to upload your latest wantlist file.
 
-Please see **[Subset Schemas]({{ site.data.pages.subset }})** for more information about what a subset is.
+Please see **[Subset Schemas]({{ site.data.pages.subset | relative_url }})** for more information about what a subset is.
 
 ## Cardinality constraints
 

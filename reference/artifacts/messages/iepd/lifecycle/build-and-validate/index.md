@@ -23,6 +23,6 @@ It is recommended that you start with tools and modify as needed.
 
 ### The NIEM Tools Catalog
 
-The [NIEM Tools Catalog]({{ site.data.links.tools_catalog }} "NIEM Tools Catalog") is a collection of different tools that aid in schema generation. For example, the Subset Schema Generation Tool ([SSGT](/reference/tools/ssgt/)) is often used to start schema development because it is easy to use and produces subset schemas and wantlists for use within an exchange. The SSGT can also be used for searching and browsing the NIEM data model.
+The [NIEM Tools Catalog]({{ site.data.links.tools_catalog }} "NIEM Tools Catalog") is a collection of different tools that aid in schema generation. For example, the Subset Schema Generation Tool ([SSGT]({{ site.data.pages.ssgt | relative_url }})) is often used to start schema development because it is easy to use and produces subset schemas and wantlists for use within an exchange. The SSGT can also be used for searching and browsing the NIEM data model.
 
-Look for an appropriate tool in the [NIEM Tools Catalog]({{ site.data.links.tools_catalog }} "NIEM Tools Catalog"). Use one or more tools to [create the artifacts and validate them](/training/iepd-developer/build-and-validate).
+Look for an appropriate tool in the [NIEM Tools Catalog]({{ site.data.links.tools_catalog }} "NIEM Tools Catalog"). Use one or more tools to [create the artifacts and validate them]({{ "/training/iepd-developer/build-and-validate" | relative_url }}).

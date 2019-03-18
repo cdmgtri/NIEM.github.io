@@ -31,7 +31,7 @@ The following are artifacts that normatively define NIEM messages and message sp
 
 The list below contains required or common artifacts for an IEPD.
 
-See the [Model Package Description (MPD) Specification]({{ site.data.pages.mpd }}) page on this site for information on how these artifacts can be arranged in an IEPD package.
+See the [Model Package Description (MPD) Specification]({{ site.data.pages.mpd | relative_url }}) page on this site for information on how these artifacts can be arranged in an IEPD package.
 
 {% assign artifactLinks = page.links | where: "group", "artifact" %}
 {% include icon-list.html links=artifactLinks %}

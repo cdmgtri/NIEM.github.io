@@ -75,7 +75,7 @@ Aside from the required artifacts, MPD content is relatively flexible. A variety
 
 | Artifact | Description |
 | -------- | ----------- |
-| NIEM Wantlist | A wantlist is an abbreviated XML representation of a NIEM schema document subset, and identifies only the data components a user selected to build a schema document subset. A wantlist file is required to be able to reload a NIEM subset into the [SSGT]({{ site.data.pages.ssgt }}) for future editing. |
+| NIEM Wantlist | A wantlist is an abbreviated XML representation of a NIEM schema document subset, and identifies only the data components a user selected to build a schema document subset. A wantlist file is required to be able to reload a NIEM subset into the [SSGT]({{ site.data.pages.ssgt | relative_url }}) for future editing. |
 | Business Rules | Business rules constrain a message. They may be written as descriptive text or in a language that enables validation, such as [Schematron](http://schematron.com/). |
 
 ## Packaging a IEPD

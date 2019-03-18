@@ -57,7 +57,7 @@ A use case diagram graphically represents the functionality of a particular info
 
 ### Use Case Diagram General Format
 
-Several of these simple diagrams can form a [more complex diagram](/training/iepd-developer/scenario-planning).
+Several of these simple diagrams can form a [more complex diagram]({{ "/training/iepd-developer/scenario-planning/" | relative_url }}).
 
 ![Use Case Diagram General Format](assets/usecasediagram02.png "Use Case Diagram General Format")
 
@@ -66,7 +66,7 @@ Several of these simple diagrams can form a [more complex diagram](/training/iep
 A business process diagram shows the graphical and sequential activities involved in an exchange. It is similar to a workflow diagram and has the following components:
 
 | **Stakeholder** | Any person, organization, or system directly or indirectly involved in the information exchange. |
-| **Actvity** | Correlates the data being exchanged with any activity that drives it. |
+| **Activity** | Correlates the data being exchanged with any activity that drives it. |
 | **Gateway-Event Based** | Activities that force a decision upon a stakeholder. |
 | **Flow** | Connects business processes and events to show the direction of activities in the diagram. |
 | **Start Event/Stop Event** | Acts as an activity trigger or represents the result or completion of an activity. |

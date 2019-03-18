@@ -18,7 +18,7 @@ The MPD Catalog establishes identification metadata, conformance targets, purpos
 
 ## Conformance
 
-The [MPD Specification]({{ site.data.pages.mpd }}) defines a MPD Catalog as a conformance target, with a set of rules that must be followed in order to be considered conformant.
+The [MPD Specification]({{ site.data.pages.mpd | relative_url }}) defines a MPD Catalog as a conformance target, with a set of rules that must be followed in order to be considered conformant.
 
 {:.note}
 > The first step is to make sure that the catalog file validates against its **[MPD Catalog XML Schema]({{ site.data.links.mpd_catalog_xsd }})**.

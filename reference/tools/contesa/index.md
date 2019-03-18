@@ -4,7 +4,7 @@
   description: The Conformance Testing Assistant (ConTesA) enables users to test NIEM XML schemas against the automated rules from the NIEM Naming and Design Rules (NDR).
 ---
 
-The **[Conformance Testing Assistant (ConTesA)]({{ site.data.links.contesa | relative_url }})** enables users to test NIEM XML schemas against the automated rules from the [NIEM Naming and Design Rules (NDR)]({{ site.data.pages.ndr }}).  This is an important first step in verifying [NIEM conformance]({{ site.data.pages.conformance | relative_url }}).
+The **[Conformance Testing Assistant (ConTesA)]({{ site.data.links.contesa | relative_url }})** enables users to test NIEM XML schemas against the automated rules from the [NIEM Naming and Design Rules (NDR)]({{ site.data.pages.ndr | relative_url }}).  This is an important first step in verifying [NIEM conformance]({{ site.data.pages.conformance | relative_url }}).
 
 {:.features}
 - Validates XML schemas against the automated rules of the NIEM NDR.
@@ -17,7 +17,7 @@ The **[Conformance Testing Assistant (ConTesA)]({{ site.data.links.contesa | rel
 
 <!--more-->
 
-The current version of ConTesA works for NIEM XML schemas based on version 3.0 of the [NDR]({{ site.data.pages.ndr }}) or later.  For an older version of ConTesA that works for the NIEM 2.x series, please follow [this link]({{ site.data.links.contesa_old | relative_url }}).
+The current version of ConTesA works for NIEM XML schemas based on version 3.0 of the [NDR]({{ site.data.pages.ndr | relative_url }}) or later.  For an older version of ConTesA that works for the NIEM 2.x series, please follow [this link]({{ site.data.links.contesa_old | relative_url }}).
 
 ## Scope
 
@@ -106,7 +106,7 @@ The conformance report will include a summary section, listing the number of rul
 
 **Auto Fail Rules**
 
-The key section to review from the conformance report lists the rules that the schema did not pass.  Use the line number from the report to help track down the error or warning, and look up the rule number in the [NDR]({{ site.data.pages.ndr }}) if you need more information about it.
+The key section to review from the conformance report lists the rules that the schema did not pass.  Use the line number from the report to help track down the error or warning, and look up the rule number in the [NDR]({{ site.data.pages.ndr | relative_url }}) if you need more information about it.
 
 ![Conformance report - rules auto failed](assets/report-errors.png)
 {:.bordered}

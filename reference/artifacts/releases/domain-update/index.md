@@ -53,7 +53,7 @@ A domain update can only make changes for namespaces under its control.  For exa
 
 ### Rule 4-6
 
-A domain update must be conformant to the applicable [NIEM Naming and Design Rules (NDR)]({{ site.data.pages.ndr }}) reference schema document conformance target.
+A domain update must be conformant to the applicable [NIEM Naming and Design Rules (NDR)]({{ site.data.pages.ndr | relative_url }}) reference schema document conformance target.
 
 ### Rule 4-11
 
@@ -72,7 +72,7 @@ The target namespace for a domain update must follow the pattern: `http://public
 
 ### Rule 4-26
 
-A domain update must pass the NDR conformance validation checks run by the [Conformance Testing Assistant (ConTesA)]({{ site.data.pages.contesa }}).
+A domain update must pass the NDR conformance validation checks run by the [Conformance Testing Assistant (ConTesA)]({{ site.data.pages.contesa | relative_url }}).
 
 ## Usage
 
