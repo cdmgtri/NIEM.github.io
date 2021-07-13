@@ -18,7 +18,7 @@
 
 {% if page.links %}
   {% assign childURL = page.links[0].url %}
-  {% capture childLabel %}{% include functions/getLinkTitle.html url=childURL %}{% endcapture %}
+  {% capture childLabel %}{% include functions/getURLTitle.html url=childURL %}{% endcapture %}
 {% endif %}
 
 <hr/>
