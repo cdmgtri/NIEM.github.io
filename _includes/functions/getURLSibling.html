@@ -28,7 +28,7 @@
     {{ title | strip }}||{{ siblingURL }}
 
   {% elsif include.recurse != false %}
-    {% include functions/getURLSibling.html url=parentURL increment=include.increment recurse=false %}
+    {% include functions/getURLSibling.html url=parentURL increment=include.increment recurse=true %}
 
   {% endif %}
 
