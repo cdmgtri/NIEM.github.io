@@ -1,0 +1,5 @@
+
+{% comment %} Returns the parent of the given url, or nil for the root folder {% endcomment %}
+{% assign urlSegments = include.url | split: "/" | size | minus: 1 %}
+{% assign parentURL = include.url | split: "/" | slice: 0, urlSegments | join: "/" | append: "/" %}
+{{ parentURL }}
